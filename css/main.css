@@ -1,0 +1,418 @@
+
+
+
+
+
+html
+{
+    
+    box-sizing: content-box;
+    padding:0 !important;
+    margin:0 !important;
+}
+body
+{
+    padding:0 !important;
+    margin:0 !important;
+    background:#ddd;
+    overflow: auto;
+    
+}
+
+html:hover
+{
+    cursor:default;
+}
+
+
+
+h1
+    {
+        margin: 30px auto 30px auto;
+        border-radius:5px; 
+        width: 80%; 
+        font-style:italic;
+        font-size: 1.4em; 
+        padding:15px 0; 
+        color:#000; 
+        font-weight: bolder;
+        font-style: italic;
+        text-align:center; 
+        background: linear-gradient(to top, yellow, red);
+    }
+.div_more_1
+{
+    
+    height:100%;
+    width:80%;  
+    color:#000;
+    margin: 0 auto;
+}
+
+
+.tab_more
+{
+    
+    border: 5px solid orangered;
+    width:100%;
+    height:100%;
+   
+    background:red;
+    display: table;
+    
+    
+}
+.bigger
+{
+    padding:5px;
+}
+
+.tab_more tr
+{
+    
+
+    width:33.3%;
+    float:left;
+}
+
+
+.tab_more tr td
+{
+    width:100%;
+    padding:15px 0;
+    background: linear-gradient(to top left, yellow, red);
+    text-align:center;
+    font-size:1rem;
+    text-decoration: underline red;
+    float:left;
+}
+
+a
+{
+    clear:both;
+    margin:0;
+}
+
+form
+{
+    
+    margin:0;
+    clear:both;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    width:80%;
+    margin: 0% auto;
+  
+}
+
+
+.button-1
+{
+    position:relative;
+    margin:0;
+    background: black;
+    border: none;
+    color: white;
+    padding: 62px 10px;
+    font-size: 3.2rem;
+    font-style: italic;
+    outline: none;
+    margin: 60px auto;
+    width: 100%;
+    cursor:pointer;
+}
+
+.button-1:hover 
+{
+    
+    background: #2184e0;
+    color:#ddd;
+    
+}
+
+.button-1:active 
+{
+    
+    background: #03529b;
+    color:orangered;    
+    
+    border:4px solid orangered;
+    
+    border-color: aqua;
+}
+
+
+
+
+.button-2
+{
+    
+   
+    position:relative;
+    margin:0;
+    background: black;
+    border: none;
+    color: white;
+    padding: 22px 0;
+    font-size: 1.4em;
+    font-style: italic;
+    outline: none;
+    margin: 40px auto;
+    width: 100%;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.button-2:hover 
+{
+    
+    background: #2184e0;
+    
+}
+
+.button-2:active 
+{
+    
+    background: #03529b;
+    color:orangered;    
+    border:4px solid orangered;
+    
+    border-color: aqua;
+    
+}
+
+.button-3
+{
+    
+   
+    position:relative;
+    margin:0;
+    background: black;
+    border: none;
+    color: white;
+    padding: 22px 0;
+    font-size: 1.4em;
+    font-style: italic;
+    outline: none;
+    margin: 40px auto;
+    width: 100%;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.button-3:hover 
+{
+    
+    background: #2184e0;
+    
+}
+
+.button-3:active 
+{
+    
+    background: #03529b;
+    color:orangered;    
+    border:4px solid orangered;
+    
+    border-color: aqua;
+    
+}
+
+
+
+
+@media screen and (min-width: 420px) and (max-width:720px) 
+{
+    .button-1
+    {   
+        position:relative;
+        margin:0;
+        background: black;
+        border: none;
+        color: white;
+        padding: 62px 10px;
+        font-size: 2.2rem;
+        font-style: italic;
+        outline: none;
+        margin: 60px auto;
+        width: 100%;
+        cursor:pointer;
+    }
+   h1
+    {
+        margin: 30px auto 30px auto;
+        border-radius:5px; 
+        width: 80%; 
+        font-style:italic;
+        font-size: .8rem; 
+        padding:15px 0; 
+        color:#000; 
+        font-weight: bolder;
+        font-style: italic;
+        text-align:center; 
+        background: linear-gradient(to bottom left, yellow, red);
+    }
+    .div_more_1
+{
+    
+    height:100%;
+    width:80%;  
+    color:#000;
+    margin: 0 auto;
+}
+
+
+.tab_more
+{
+    
+    border: 5px solid orangered;
+    width:100%;
+    height:100%;
+   
+    background:red;
+    display: table;
+    
+    
+}
+.bigger
+{
+    padding:5px;
+}
+
+.tab_more tr
+{
+    
+
+    width:33.3%;
+    float:left;
+}
+
+
+.tab_more tr td
+{
+    width:100%;
+    padding:15px 0;
+    background: linear-gradient(to top left, yellow, red);
+    text-align:center;
+    font-size:.6rem;
+    text-decoration: underline red;
+    float:left;
+}
+
+a
+{
+    clear:both;
+    margin:0;
+}
+  
+    
+}
+
+
+@media screen and (max-width: 419px)
+{
+    .button-1
+    {   
+        position:relative;
+        margin:0;
+        background: black;
+        border: none;
+        color: white;
+        padding: 62px 10px;
+        font-size: 1.2rem;
+        font-style: italic;
+        outline: none;
+        margin: 60px auto;
+        width: 100%;
+        cursor:pointer;
+    }
+   h1
+    {
+        margin: 30px auto 30px auto;
+        border-radius:5px; 
+        width: 80%; 
+        font-style:italic;
+        font-size: .5rem; 
+        padding:15px 0; 
+        color:#000; 
+        font-weight: bolder;
+        font-style: italic;
+        text-align:center; 
+        background: linear-gradient(to bottom left, yellow, red);
+    }
+    .div_more_1
+{
+    
+    height:100%;
+    width:80%;  
+    color:#000;
+    margin: 0 auto;
+}
+
+
+.tab_more
+{
+    
+    border: 5px solid orangered;
+    width:100%;
+    height:100%;
+   
+    background:red;
+    display: table;
+    
+    
+}
+.bigger
+{
+    padding:5px;
+}
+
+.tab_more tr
+{
+    
+
+    width:33.3%;
+    float:left;
+}
+
+
+.tab_more tr td
+{
+    width:100%;
+    padding:15px 0;
+    background: linear-gradient(to top left, yellow, red);
+    text-align:center;
+    font-size:.4rem;
+    text-decoration: underline red;
+    float:left;
+}
+
+a
+{
+    clear:both;
+    margin:0;
+}
+    
+.button-2
+{
+    
+   
+    position:relative;
+    margin:0;
+    background: black;
+    border: none;
+    color: white;
+    padding: 22px 0;
+    font-size: .8em;
+    font-style: italic;
+    outline: none;
+    margin: 40px auto;
+    width: 100%;
+    border-radius:5px;
+    cursor:pointer;
+}
+    
+    
+}
+
